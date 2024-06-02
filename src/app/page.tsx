@@ -122,13 +122,8 @@ export default function Home() {
         <p className="animate-bounce">Loading...</p>
       </div>
     );
-  if (error)
-    return (
-      <div className="flex items-center min-h-screen justify-center">
-        {/* ts-ignore */}
-        <p className="text-red-400">{error.message}</p>
-      </div>
-    );
+  
+    
   return (
     <div className="flex flex-col gap-4 bg-gray-100 min-h-screen ">
       <Navbar location={data?.city.name} />
