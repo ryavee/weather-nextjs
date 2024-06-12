@@ -16,7 +16,7 @@ function Footer({}: Props) {
     <div className="container-fluid p-3 flex justify-between items-center text-white bg-[rgba(65,105,225,0.836)]">
       <div className="flex items-center">
         <h4 className="mr-2">Weather App</h4>
-        <p className='my-1'>&copy; Ravi Raj. Made with <FaHeart aria-label="love" className="inline-block text-red-500" /></p>
+        <p className='my-1'>&copy; Made with <FaHeart aria-label="love" className="inline-block text-red-500" /> by Ravi Raj</p>
       </div>
       <button 
         onClick={scrollToTop} 
