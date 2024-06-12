@@ -47,7 +47,7 @@ Make sure you have the following installed on your local machine:
 3. **Set up environment variables:**
     Create a `.env.local` file in the root directory of your project and add your OpenWeatherMap API key:
     ```env
-    NEXT_PUBLIC_OPENWEATHERMAP_API_KEY=your_openweathermap_api_key
+    NEXT_PUBLIC_WEATHER_KEY=your_openweathermap_api_key
     ```
 
 4. **Run the development server:**
